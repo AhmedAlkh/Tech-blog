@@ -34,7 +34,7 @@ router.get('/:id', (req, res) => {
     });
 });
 
-// POST /api/users   CREATE
+// POST /api/users   CREATE USER
 router.post('/', (req, res) => {
     User.create({
         username: req.body.username,
@@ -47,7 +47,28 @@ router.post('/', (req, res) => {
     });
 });
 
-// PUT /api/users/1   UPDATE
+router.post('/login', (req, res) => {
+    User.findOne({
+      where: {
+        username: req.body.username
+      }
+    }).then(dbUserData => {
+      if (!dbUserData) {
+        res.status(400).json({ message: 'User not found!' });
+        return;
+      }
+  
+      const validPassword = dbUserData.checkPassword(req.body.password);
+      if (!validPassword) {
+        res.status(400).json({ message: 'Incorrect password!' });
+        return;
+      }
+  
+      res.json({ user: dbUserData, message: 'log in successful, welcome!' });
+    });
+  });
+
+// PUT /api/users/1   UPDATE USER
 router.put('/:id', (req, res) => {
     User.update(req.body, {
         individualHooks: true,
@@ -68,7 +89,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
-// DELETE /api/users/1   DELETE
+// DELETE /api/users/1   DELETE USER
 router.delete('/:id', (req, res) => {
     User.destroy({
         where: {
