@@ -39,5 +39,13 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 * []THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
 User - log in and sign up
+When I choose to sign up I must CREATE A USERNAME AND PASSWORD
+When I choose to sign in I must ENTER MY USERNAME AND PASSWORD
+
 Post - User can create posts
+post includes  TITLE, CONTENTS, POST CREATORS USERNAME, DATE CREATED
+
 Comment - User can comment on posts
+
+Continuation...
+Project needs to be pushed to feature/post-model
