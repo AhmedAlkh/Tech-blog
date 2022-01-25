@@ -39,3 +39,6 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 * []THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
 Comment - User can comment on posts
+
+Heroku
+https://still-cove-68689.herokuapp.com/ | https://git.heroku.com/still-cove-68689.git
