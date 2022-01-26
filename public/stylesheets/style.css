@@ -134,7 +134,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #c0ce8d;
   font-size: 100%;
   font-weight: bold;
   transition: color 0.1s;
@@ -143,7 +143,7 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: olive;
 }
 
 .delete-post-btn {
