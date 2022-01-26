@@ -38,7 +38,14 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 * []WHEN I am idle on the site for more than a set time
 * []THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
-Comment - User can comment on posts
+After everything is operational, I will focus on styling to try to match the mock up
+
+Where I will pick up next time...
+Continue on creating comment functionality
+
+Possible issues...
+Seems that user info is not saved, everything I try to log in I have to sign up first and then log in using those credentials. Will have to figure out and resolve this issue.
+
 
 Heroku
 https://still-cove-68689.herokuapp.com/ | https://git.heroku.com/still-cove-68689.git
