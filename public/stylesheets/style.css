@@ -14,13 +14,13 @@ html {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #c0ce8d;
   font-weight: bold;
   transition: color 0.1s;
 }
 
 a:hover {
-  color: #c0ce8d;
+  color: olive;
 }
 
 .navbar-title:hover {
