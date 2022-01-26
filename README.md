@@ -45,5 +45,7 @@ Seems that user info is not saved, everytime I try to log in I have to sign up f
 
 Add date and time created to posts on homepage
 
+When app is finished, enter: git push heroku main
+
 Heroku
 https://still-cove-68689.herokuapp.com/ | https://git.heroku.com/still-cove-68689.git
