@@ -1,9 +1,9 @@
 <article class="post">
   <div class="title">
-    <a href="{{post_content}}" target="_blank">{{title}}</a>
+    <h3 style="font-weight: bold" "{{post_content}}">{{title}}</h3>
     <span>({{post_content}})</span>
   </div>
   <div class="meta">
-    <a href="/post/{{id}}">{{comments.length}} comment(s)</a>
+    <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
   </div>
 </article>
