@@ -14,7 +14,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #c0ce8d;
+  color: black;
   font-weight: bold;
   transition: color 0.1s;
 }
@@ -112,6 +112,10 @@ header h1 a {
 }
 
 .login-button {
+  color: #c0ce8d;
+}
+
+.login-button-homepage {
   color: #c0ce8d;
 }
 
