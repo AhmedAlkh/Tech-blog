@@ -115,7 +115,7 @@ header h1 a {
   color: #c0ce8d;
 }
 
-.login-button-homepage {
+.login-button-homepage, .dashboard-button-homepage, .homepage-button-homepage {
   color: #c0ce8d;
 }
 
@@ -194,7 +194,7 @@ main {
 }
 
 .new-post-form input {
-  width: 300px;
+  width: 290px;
 }
 
 .edit-post-form {
