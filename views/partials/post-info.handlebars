@@ -1,9 +1,17 @@
 <article class="post">
+  <div class="post-wrapper">
+    <div class="title-wrapper">
   <div class="title">
     <h3 style="font-weight: bold" "{{post_content}}">{{title}}</h3>
-    <span>({{post_content}})</span>
+    <h4 class="date-time">Post by {{user.username}} on {{format_date created_at}}</h4>
+    </div>
+    </div>
+    <div class="post-styling">
+    <span>{{post_content}} </span>
   </div>
+  
   <div class="meta">
     <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+  </div>
   </div>
 </article>

@@ -43,8 +43,6 @@ After everything is operational, I will focus on styling to try to match the moc
 Possible issues...
 Seems that user info is not saved, everytime I try to log in I have to sign up first and then log in using those credentials. Will have to figure out and resolve this issue.
 
-Add date and time created to posts on homepage
-
 When app is finished, enter: git push heroku main
 
 Heroku

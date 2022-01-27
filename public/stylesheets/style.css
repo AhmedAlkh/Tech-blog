@@ -9,13 +9,11 @@ html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
 }
 
 a {
   text-decoration: none;
   color: black;
-  font-weight: bold;
   transition: color 0.1s;
 }
 
@@ -32,7 +30,6 @@ button {
   border: 0;
   padding: 4%;
   color: #c0ce8d;
-  font-weight: bold;
   transition: background-color 0.1s;
   cursor: pointer;
   border-radius: 5px;
@@ -96,13 +93,14 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 2px;
+  justify-content: center;
   border-radius: 10%;
 }
 
 header h1 a {
   color: black;
   font-size: 1em;
-  padding-left: 10px;
+  padding-left: 18px;
   padding-right: 10px;
 }
 
@@ -140,9 +138,7 @@ main {
   text-decoration: none;
   color: #c0ce8d;
   font-size: 100%;
-  font-weight: bold;
   transition: color 0.1s;
-  margin-left: 16px;
 }
 
 .btn-no-style:hover {
@@ -163,11 +159,11 @@ main {
   line-height: 150%;
 }
 
-.post .title span {
+/* .post .title span {
   font-style: italic;
   font-size: 90%;
   color: #7d7d7d;
-}
+} */
 
 .edit-link {
   display: block;
@@ -211,6 +207,50 @@ footer {
   font-size: 110%;
 }
 
-h3 {
-    color: black;
+.post-wrapper {
+    border: 3px black solid;
+    background-color: #a52a2a;
+    font-size: 0%;
 }
+
+h3 {
+    display: inline-block;
+    color: #c0ce8d;
+    font-size: 16pt;
+    height: 20%;
+    margin: 0%;
+}
+
+h4 {
+    color: #c0ce8d;
+}
+
+.post-styling {
+    background-color: #c0ce8d;
+    font-size: 12pt;
+}
+
+.title-wrapper {
+    background-color: black;
+    padding-top: 0%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.meta {
+    padding: 0%;
+    font-size: 12pt;
+    background-color: #c0ce8d;
+}
+
+.navbar-buttons {
+    width: 100%;
+}
+
+.date-time {
+    font-size: 12pt;
+    margin: 0%;
+}
+
