@@ -40,7 +40,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 After everything is operational, I will focus on styling to try to match the mock up
 
-Possible issues...
+issues...
 Seems that user info is not saved, everytime I try to log in I have to sign up first and then log in using those credentials. Will have to figure out and resolve this issue.
 
 When app is finished, enter: git push heroku main
