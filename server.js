@@ -11,8 +11,9 @@ const PORT = process.env.PORT || 3001;
 
 const sess = {
     secret: 'Secret',
-    cookie: {},
-    resave: false,
+    cookie: {expires: 5 * 60 * 1000},
+    rolling: true,
+    resave: true,
     saveUninitialized: true,
     store: new SequelizeStore({
       db: sequelize
@@ -23,13 +24,14 @@ app.use(session(sess));
 
 const helpers = require('./utils/helpers');
 const hbs = exphbs.create({ helpers });
-  
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.engine('handlebars', hbs.engine);
+app.set('view engine', 'handlebars');
+
 // Turn on routes
 app.use(routes);
 

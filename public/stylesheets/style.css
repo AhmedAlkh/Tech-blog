@@ -54,7 +54,7 @@ input {
 textarea:focus,
 input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid black;
 }
 
 textarea {
@@ -159,11 +159,11 @@ main {
   line-height: 150%;
 }
 
-/* .post .title span {
+.post .title span {
   font-style: italic;
   font-size: 90%;
   color: #7d7d7d;
-} */
+}
 
 .edit-link {
   display: block;
@@ -175,7 +175,7 @@ main {
 }
 
 .comment {
-  padding: 1%;
+  border: black 1px solid;
   margin-bottom: 1%;
 }
 
@@ -184,9 +184,9 @@ main {
 }
 
 .comment .meta {
-  font-size: 90%;
+  font-size: 15pt;
   margin-bottom: 0.5%;
-  opacity: 0.6;
+  font-weight: bold;
 }
 
 .new-post-form input {
@@ -254,3 +254,6 @@ li {
     margin: 0%;
 }
 
+.text {
+  background-color: #fff5eb;
+}
