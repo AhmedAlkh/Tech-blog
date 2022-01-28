@@ -40,6 +40,7 @@ async function signupFormHandler(event) {
         headers: { 'Content-Type': 'application/json' }
       });
       if (response.ok) {
+          document.location.replace('/');
           console.log('sign up successful');
       } else {
           alert(response.statusText);

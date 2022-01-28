@@ -13,15 +13,12 @@
         <div>
           <nav>
             <div class="navbar-buttons">
-              <a class="homepage-button-homepage" href="/">Homepage</a>
+              <a class="homepage-button-homepage" href="/">Home</a>
+              <a class="dashboard-button-homepage" href="/dashboard">Dashboard</a>
               {{#if loggedIn}}
-                <a
-                  class="dashboard-button-homepage"
-                  href="/dashboard"
-                >dashboard</a>
-                <button id="logout" class="btn-no-style">logout</button>
+                <button id="logout" class="btn-no-style">Logout</button>
               {{else}}
-                <a class="login-button-homepage" href="/login">login</a>
+                <a class="login-button-homepage" href="/login">Login</a>
               {{/if}}
             </div>
           </nav>
