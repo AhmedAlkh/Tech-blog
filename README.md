@@ -42,9 +42,6 @@ DELETE POSTS ERROR
 I can delete posts but only if they have no comments
 posts with comments cannot be deleted
 
-EDIT POSTS ERROR
-cannot edit posts
-
 Create seeds
 
 After everything is operational, I will focus on styling to try to match the mock up
