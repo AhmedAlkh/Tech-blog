@@ -1,3 +1,5 @@
+var buttonEl = document.querySelector("#add-comment");
+
 async function commentFormHandler(event) {
   event.preventDefault();
 
@@ -29,4 +31,4 @@ async function commentFormHandler(event) {
   }
 }
 
-document.querySelector(".comment-form").addEventListener("submit", commentFormHandler);
+buttonEl.addEventListener("click", commentFormHandler);

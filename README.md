@@ -1,52 +1,18 @@
-# Tech-blog
 
-AS A developer who writes about tech
-I WANT a CMS-style blog site
-SO THAT I can publish articles, blog posts, and my thoughts and opinions
+  # Tech Blog
 
-* [x]GIVEN a CMS-style blog site
-* [x]WHEN I visit the site for the first time
-* [x]THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
-* [x]WHEN I click on the homepage option
-* [x]THEN I am taken to the homepage
-* [x]WHEN I click on any other links in the navigation
-* [x]THEN I am prompted to either sign up or sign in
-* [x]WHEN I choose to sign up
-* [x]THEN I am prompted to create a username and password
-* [x]WHEN I click on the sign-up button
-* [x]THEN my user credentials are saved and I am logged into the site
-* [x]WHEN I revisit the site at a later time and choose to sign in
-* [x]THEN I am prompted to enter my username and password
-* [x]WHEN I am signed in to the site
-* [x]THEN I see navigation links for the homepage, the dashboard, and the option to log out
-* [x]WHEN I click on the homepage option in the navigation
-* [x]THEN I am taken to the homepage and presented with existing blog posts that include the post title and the date created
-* [x]WHEN I click on an existing blog post
-* [x]THEN I am presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment
-* [x]WHEN I enter a comment and click on the submit button while signed in
-* [x]THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created
-* [x]WHEN I click on the dashboard option in the navigation
-* [x]THEN I am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post
-* [x]WHEN I click on the button to add a new blog post
-* [x]THEN I am prompted to enter both a title and contents for my blog post
-* [x]WHEN I click on the button to create a new blog post
-* [x]THEN the title and contents of my post are saved and I am taken back to an updated dashboard with my new blog post
-* []WHEN I click on one of my existing posts in the dashboard
-* []THEN I am able to delete or update my post and taken back to an updated dashboard
-* [x]WHEN I click on the logout option in the navigation
-* [x]THEN I am signed out of the site
-* [x]WHEN I am idle on the site for more than a set time
-* [x]THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
+  ## Website link
+  
 
-DELETE POSTS ERROR
-I can delete posts but only if they have no comments
-posts with comments cannot be deleted
+  ## Description
+  Tech Blog is a CMS-style blog site where developers can communicate and interact with other developers by creating their own posts and commenting on other peoples posts. Developers can use Tech Blog to publish articles and blog posts, along with their thoughts and opinions. Tech Blog has a very simplistic UI that is easy to navigate so you can get straight to buisness!
 
-Create seeds
+  ## Screenshot
+  ![Tech Blog](https://user-images.githubusercontent.com/90983346/151733488-31058bb8-c762-4ee3-a60f-6f4d8e5d1a6a.png)
 
-After everything is operational, I will focus on styling to try to match the mock up
+  ## Questions
 
-When app is finished, enter: git push heroku main
+  GitHub: https://github.com/AhmedAlkh
 
-Heroku
-https://still-cove-68689.herokuapp.com/ | https://git.heroku.com/still-cove-68689.git
+  For any additional questions or information, please contact me.
+  [alkhatib_ahmed1995@hotmail.com](mailto:alkhatib_ahmed1995@hotmail.com)
