@@ -2,7 +2,7 @@
   # Tech Blog
 
   ## Website link
-  
+  https://still-cove-68689.herokuapp.com/
 
   ## Description
   Tech Blog is a CMS-style blog site where developers can communicate and interact with other developers by creating their own posts and commenting on other peoples posts. Developers can use Tech Blog to publish articles and blog posts, along with their thoughts and opinions. Tech Blog has a very simplistic UI that is easy to navigate so you can get straight to buisness!
