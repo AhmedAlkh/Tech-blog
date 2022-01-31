@@ -45,6 +45,8 @@ posts with comments cannot be deleted
 EDIT POSTS ERROR
 cannot edit posts
 
+Create seeds
+
 After everything is operational, I will focus on styling to try to match the mock up
 
 When app is finished, enter: git push heroku main
